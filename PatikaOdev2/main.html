@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE</title>
+    <link rel="icon" href="google.jpg">
+    <style>
+        div{
+            text-align: center; /* divlerin içindekileri merkeze getirir,ortalar */
+        }
+        #div1{
+           background-color: #e4e4ea; 
+           padding-bottom: 10px;
+           margin: 20px;
+        }
+        p{
+            margin-bottom: 5px;
+        }
+        .m1{
+            margin-left: 3px;
+        }
+        #div2{
+            background-color: #7EE5DA;
+            padding-top: 14px;
+        }
+        #div3{
+            background-color: #70CCC2;
+            padding-top: 25px;
+        }
+        #div4{
+            background-color: #62B3AA;
+           
+        }
+        div.mycontainer{
+            
+            display: flex; /* div kutucuklarını hizalama */
+            margin: 20px;
+
+        }
+        div.mycontainer div{
+            width: 33.3%;
+            float:left; /* divleri yan yana koyabilmek için */
+            margin-top: -18px;
+            margin-left: 1px;
+            padding-bottom: 18px;
+        }
+        
+    </style>
+</head>
+<body>
+    <center><img src="google1.jpg" alt="GOOGLE"></center>
+        <div id="div1">
+            <p>Search the web using Google!</p>
+            <input type="text" size="40px">
+            <br>
+            <button>Google Search</button><button class="m1">I'm feeling lucky</button>
+        </div>
+
+    <div class="mycontainer">
+        <div id="div2">
+            <p>Special Searches</p>
+            <a href="#">Stanford Search</a><br>
+            <a href="#">Linux Search</a>
+        </div>
+        <div id="div3">
+            <a href="#">HELP!</a><br>
+            <a href="#">About Google!</a><br>
+            <a href="#">Company Info</a><br>
+            <a href="#">Google! Logos</a>
+        </div>
+        <div id="div4">
+            <p style="margin-bottom: -5px;">Get Google! <br>updates monthly:</p>
+            <br>
+            <input type="email"  placeholder="your email">
+            <br>
+            <button style="margin-top: 1px;">Subscribe</button><a href="#">Archive</a>
+        </div>
+    </div>
+    <center><p>Copyright ©1998 Google Inc.</p></center>
+   
+
+</body>
+</html>
